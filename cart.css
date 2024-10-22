@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Skranji:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 1em;
+    background-color: #070707;
+}
+i{
+    color: white;
+    font-size: 2em;
+    cursor: pointer;
+}
+header .icon-cart span{
+    display: flex;
+    color: white;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+    right: -1px;
+}
+header h1{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 4em;
+}
+nav ul a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+.bas{
+    color: white;
+    font-weight: bold;
+    font-size: small;
+}
+
+/*--hover for Nav---*/
+nav ul a:hover{
+    color: hsl(0, 0%, 80%);
+}
+
+/* main */
+main {
+    position: relative;
+    max-width: 1200px;
+    margin: 1.25em auto; 
+    padding: 0 1.25em;
+}  
+.video-background {
+    position: relative;
+    width: 100%;
+    height: 50vh; 
+    overflow: hidden;
+    object-fit: cover;  /* Ensures video scales without distortion */
+}
+.background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    overflow: hidden; /* Prevents overflow of the video */
+}
+.cartTab{
+    width: 400px;
+    background-color: black;
+    color: white;
+    position: fixed;
+
+}

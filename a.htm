@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/49e90e4fd6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="a.css">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <i class="fa-brands fa-apple"></i>
+        <h1>iStore</h1>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#">Explore</a></li>
+                    <li><a href="#">Latest</a></li>
+                    <li><a href="#">iPhone 16</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Available</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Video Background Section -->
+    <div class="video-background">
+        <video autoplay muted loop playsinline class="background-video">
+            <source src="image/a.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <main>
+        <nav aria-label="breadcrumb">
+            <div class="breadcrumb">
+                <a href="#">Home</a> > <a href="#">iPhone 16</a>
+            </div>
+        </nav>
+        
+        <h2>Discover the Latest iPhones at Unbeatable Prices</h2>
+
+        <!-- Filter Section -->
+        <section class="filter">
+            <h2>Filter By</h2>
+            <ul>
+                <li>
+                    Collections
+                    <ul>
+                        <li><input type="checkbox" id="iphone16" name="collection" value="iphone16"> 
+                            <label for="iphone16">iPhone 16</label>
+                        </li>
+                        <li><input type="checkbox" id="iphone16pro" name="collection" value="iphone16pro"> 
+                            <label for="iphone16pro">iPhone 16 Pro</label>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Capacity
+                    <ul>
+                        <li><input type="checkbox" id="128gb" name="capacity" value="128gb"> 
+                            <label for="128gb">128 GB</label>
+                        </li>
+                        <li><input type="checkbox" id="256gb" name="capacity" value="256gb"> 
+                            <label for="256gb">256 GB</label>
+                        </li>
+                        <li><input type="checkbox" id="256gb" name="capacity" value="256gb"> 
+                            <label for="256gb">512 GB</label>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        
+
+        <!-- Products Section -->
+        <section class="products">
+            <!-- First Product -->
+            <div class="product">
+                <div class="promo">On Promo</div>
+                <img src="image/iphonw 16.jpg" alt="iPhone 16">
+                <p>iPhone 16 128GB</p>
+                <p class="price">
+                    <span class="discount-price">$780.00</span> 
+                    <span class="original-price" >$829.00</span>
+                </p>
+                <button class="add-to-cart" aria-label="Add iPhone 16 128GB to cart">Add to cart</button>
+
+                <div class="colors">
+                    <div class="color blue"></div>
+                </div>
+            </div>
+
+            <!-- Second Product -->
+            <div class="product">
+                <div class="promo">On Promo</div>
+                <img src="image/iphonw 16.jpg" alt="iPhone 16">
+                <p>iPhone 16 256GB</p>
+                <p class="price">
+                    <span class="discount-price">$840.00</span> 
+                    <span class="original-price">$929.00</span>
+                </p>
+                <button class="sold-out" aria-label="iPhone 16 256GB sold out">SOLD OUT</button>
+
+                <div class="colors">
+                    <div class="color blue"></div>
+                </div>
+            </div>
+
+            <!-- Third Product (if needed) -->
+            <!-- You can add a third product here following the same structure -->
+            <div class="product">
+                <div class="promo">On Promo</div>
+                <img src="image/iphonw 16.jpg" alt="iPhone 16">
+                <p>iPhone 16 512GB</p>
+                <p class="price">
+                    <span class="discount-price">$999.00</span> <span class="original-price">$1,129.00</span>
+                </p>
+                <button class="add-to-cart">Add to cart</button>
+                <div class="colors">
+                    <div class="color blue"></div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="promo">On Promo</div>
+                <img src="image/pro1.jpg" alt="iPhone 16">
+                <p>iPhone 16pro 512GB</p>
+                <p class="price">
+                    <span class="discount-price">$999.00</span> <span class="original-price">$1,299.00</span>
+                </p>
+                <button class="add-to-cart">Add to cart</button>
+                <div class="colors">
+                    <div class="color silver"></div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="promo">On Promo</div>
+                <img src="image/pro1.jpg" alt="iPhone 16 256GB">
+                <p>iPhone 16pro 256GB</p>
+                <p class="price">
+                    <span class="discount-price">$902.00</span> 
+                    <span class="original-price">$1,099.00</span>
+                </p>
+                <button class="sold-out" aria-label="iPhone 16 256GB sold out">SOLD OUT</button>
+
+                <div class="colors">
+                    <div class="color silver"></div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="promo">On Promo</div>
+                <img src="image/pro1.jpg" alt="iPhone 16pro 256GB">
+                <p>iPhone 16pro 256GB</p>
+                <p class="price">
+                    <span class="discount-price">$902.00</span> 
+                    <span class="original-price">$1,099.00</span>
+                </p>
+                <button class="sold-out" aria-label="iPhone 16pro 256GB sold out">SOLD OUT</button>
+                <div class="colors">
+                    <div class="color silver"></div>
+                </div>
+            </div>
+            <!--promax-->
+            <div class="product">
+                <div class="promo">On Promo</div>
+                <img src="image/promax.jpg" alt="iPhone 16pro max 256GB">
+                <p>iPhone 16pro max 128GB</p>
+                <p class="price">
+                    <span class="discount-price">$934.00</span> 
+                    <span class="original-price">$1,199</span>
+                </p>
+                <button class="sold-out" aria-label="iPhone 16pro 128gb sold out">SOLD OUT</button>
+                <div class="colors">
+                    <div class="color graphite"></div>
+                </div>
+                </div>
+            </div>
+            <!--eight Product--> 
+            <div class="product">
+                <div class="promo">On Promo</div>
+                <img src="image/promax.jpg" alt="iPhone 16pro max 256GB">
+                <p>iPhone 16pro max 256GB</p>
+                <p class="price">
+                    <span class="discount-price">$1,095.00</span> 
+                    <span class="original-price">$1,399.00</span>
+                </p>
+                <button class="add-to-cart" aria-label="iPhone 16pro max 256GB Add to cart">Add to cart</button>
+                <div class="colors">
+                    <div class="color graphite"></div>
+                </div>
+            </div>
+            <!--nine Product-->
+            <div class="product">
+                <div class="promo">On Promo</div>
+                <img src="image/promax.jpg" alt="iPhone 16pro max 512GB">
+                <p>iPhone 16pro max 512GB</p>
+                <p class="price">
+                    <span class="discount-price">$1,289.00</span> 
+                    <span class="original-price">$1,699.00</span>
+                </p>
+                <button class="add-to-cart" aria-label="iPhone 16pro max 512GB Add to cart">Add to cart</button>
+                <div class="colors">
+                    <div class="color graphite"></div>
+                </div>
+            </div>    
+            <div class="product">
+                <div class="promo">On Promo</div>
+                <img src="image/15.jpg" alt="iPhone 15 256GB">
+                <p>iPhone 15 256GB</p>
+                <p class="price">
+                    <span class="discount-price">$912.00</span> 
+                    <span class="original-price">$1,199.00</span>
+                </p>
+                <button class="add-to-cart" aria-label="Add iPhone 15 256GB to cart">Add to cart</button>
+
+                <div class="colors">
+                    <div class="color pink"></div>
+                </div>
+            </div>
+            <!--stop-->
+            <div class="product">
+                <div class="promo">On Promo</div>
+                <img src="image/15.jpg" alt="iPhone 15pro max 512GB">
+                <p>iPhone 15pro max 512GB</p>
+                <p class="price">
+                    <span class="discount-price">$1400.00</span> 
+                    <span class="original-price">$1,699.00</span>
+                </p>
+                <button class="add-to-cart" aria-label="Add iPhone 15pro max 512GB to cart">Add to cart</button>
+
+                <div class="colors">
+                    <div class="color pink"></div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="promo">On Promo</div>
+                <img src="image/15pro.jpg" alt="iPhone 14pro max">
+                <p>iPhone 14pro max</p>
+                <p class="ram">512GB</p>
+                <p class="price">
+                    <span class="discount-price">$1,121.00</span> 
+                    <span class="original-price">$1,399.00</span>
+                </p>
+                <button class="add-to-cart" aria-label="Add iPhone 14pro max 512GB to cart">Add to cart</button>
+
+                <div class="colors">
+                    <div class="color pink"></div>
+                </div>
+            </div>
+            
+            <div class="product">
+                <div class="promo">On Promo</div>
+                <img src="image/mac.png" alt="MacBook Pro 16-inch">
+                <p>MacBook Pro 16-inch</p>
+                <p class="price">
+                    <span class="discount-price">$1,988.00</span> 
+                    <span class="original-price">$2,499.00</span>
+                </p>
+                <button class="sold-out" aria-label="MacBook Pro 16-inch sold out">SOLD OUT</button>
+
+                <div class="colors">
+                    <div class="color black"></div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="promo">On Promo</div>
+                <img src="image/iphone16_128gb.jpg" alt="MacBook Pro 14-inch">
+                <p>MacBook Pro 14-inch</p>
+                <p class="price">
+                    <span class="discount-price">$1,002.00</span> 
+                    <span class="original-price">$1,999.00</span>
+                </p>
+                <button class="add-to-cart" aria-label="Add iPhone 16 128GB to cart">Add to cart</button>
+
+                <div class="colors">
+                    <div class="color blue"></div>
+                    <div class="color black"></div>
+                    <div class="color green"></div>
+                    <div class="color pink"></div>
+                    <div class="color yellow"></div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="promo">On Promo</div>
+                <img src="image/pad.jpg" alt="iPad Pro 12.9-inch">
+                <p>iPad Pro 12.9-inch</p>
+                <p class="price">
+                    <span class="discount-price">$914</span> 
+                    <span class="original-price">$1,099</span>
+                </p>
+                <button class="add-to-cart" aria-label="Add iPhone 16 128GB to cart">Add to cart</button>
+
+                <div class="colors">
+                    <div class="color black"></div>
+                </div>
+            </div>
+
+        </section>
+        <h2>Featured Products</h2>
+            <hr><br>
+        <section class="products">
+            <div class="product">
+                <div class="promo">New Arrival</div>
+                <img src="image/iphone16_128gb.jpg" alt="iPhone 16pro max 1TB">
+                <p>iPhone 16pro max 1TB</p>
+                <p class="price">
+                    <span class="discount-price"> $2,134.00</span> 
+                </p>
+                <button class="add-to-cart" aria-label="Add iPhone 16pro max TB to cart">Add to cart</button>
+
+                <div class="colors">
+                    <div class="color blue"></div>
+                    <div class="color black"></div>
+                    <div class="color green"></div>
+                    <div class="color pink"></div>
+                    <div class="color yellow"></div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="promo">New Arrival</div>
+                <img src="image/16pro.jpg" alt="iPhone 16 256GB">
+                <p>iPhone 15pro max 1TB</p>
+                <p class="price">
+                    <span class="discount-price">$ $1,599.00</span>
+                </p>
+                <button class="add-to-cart" aria-label="iPhone 16 256GB sold out">Add to cart</button>
+
+                <div class="colors">
+                    <p>Colors:</p>
+                    <div class="color graphite"></div>
+                    <div class="color silver"></div>
+                    <div class="color gold"></div>
+                    <div class="color deep-purple"></div>
+                    <div class="color dark-blue"></div>
+                </div>
+        </section>
+    </main>
+    <div class="video-background">
+        <video autoplay muted loop class="background-video">
+            <source src="image/vid.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="container3">
+        <div class="prod">
+            <div class="apl">
+                <i class="fa-brands fa-apple"></i>
+            </div>
+            <img src="image/ipad.png" alt="iPad">
+            <h3>apple ipad</h3>
+            <div class="price">From #729 000</div>
+            <button>Buy now</button>
+        </div>
+        <div class="prod">
+            <div class="apl">
+                <i class="fa-brands fa-apple"></i>
+            </div>
+            <img src="image/min.png" alt="Mac mini">
+            <h3>Mac mini</h3>
+            <div class="price">From #1 229 000</div>
+            <button>Buy now</button>
+        </div>
+        <div class="prod">
+            <div class="apl">
+                <i class="fa-brands fa-apple"></i>
+            </div>
+            <img src="image/14.png" alt="iPhone 14 Pro">
+            <h3>iphone 14 pro</h3>
+            <div class="price">From #929 000</div>
+            <button>Buy now</button>
+        </div>
+    </div>
+    <main>
+        <!-- Breadcrumbs -->
+        <div class="breadcrumb">
+            <a href="#">Home</a> > <a href="#">iPhones</a>
+        </div>
+
+        <h1>Buy your i devices here</h1>
+
+        <!-- Filter Section -->
+        <section class="filter">
+            <h2>Filter By</h2>
+            <ul>
+                <li>iphone</li>
+                <li>Available:</li>
+            </ul>
+        </section>
+
+        <!-- Products Section -->
+        <!-- Products Section -->
+        <!-- Products Section -->
+        <!-- Products Section -->
+        <section class="products">
+            <!-- iPhone 16 128GB -->
+            <div class="product">
+                <div class="promo">Buy now</div>
+                <img src="image/iphone16_128gb.jpg" alt="iPhone 16 128GB">
+                <p>iPhone 16 128GB</p>
+                <p class="price">
+                    <span class="discount-price">$999.00</span> 
+                </p>
+                <button class="add-to-cart">Add to cart</button>
+                <div class="colors">
+                    <div class="color blue"></div>
+                    <div class="color black"></div>
+                    <div class="color green"></div>
+                    <div class="color pink"></div>
+                    <div class="color yellow"></div>
+                </div>
+            </div>
+
+            <!-- iPhone 16 Pro Max 256GB -->
+            <div class="product">
+                <div class="promo">Buy now</div>
+                <img src="image/iphone16pro_max_256gb.jpg" alt="iPhone 16 Pro Max 256GB">
+                <p>iPhone 16 Pro Max 256GB</p>
+                <p class="price">
+                    <span class="discount-price">$1,399.00</span> 
+                </p>
+                <button class="add-to-cart">Add to cart</button>
+                <div class="colors">
+                    <div class="color silver"></div>
+                    <div class="color gold"></div>
+                    <div class="color space-gray"></div>
+                </div>
+            </div>
+
+            <!-- iPhone 13 Mini 64GB -->
+            <div class="product">
+                <div class="promo">Buy now</div>
+                <img src="image/iphone16_mini.jpg" alt="iPhone 13 Mini 64GB">
+                <p>iPhone 13 Mini 64GB</p>
+                <p class="price">
+                    <span class="discount-price">$699.00</span> 
+                </p>
+                <button class="add-to-cart">Add to cart</button>
+                <div class="colors">
+                    <div class="color blue"></div>
+                    <div class="color black"></div>
+                    <div class="color pink"></div>
+                </div>
+            </div>
+
+            <!-- iPhone 14 Pro Max 256GB -->
+            <div class="product">
+                <div class="promo">Buy now</div>
+                <img src="image/iphone_14_pro_max.jpg" alt="iPhone 14 Pro Max 256GB">
+                <p>iPhone 14 Pro Max 256GB</p>
+                <p class="price">
+                    <span class="discount-price">$1,199.00</span> 
+                </p>
+                <button class="add-to-cart">Add to cart</button>
+                <div class="colors">
+                    <div class="color silver"></div>
+                    <div class="color gold"></div>
+                    <div class="color deep-purple"></div>
+                </div>
+            </div>
+
+            <!-- iPhone X 64GB -->
+            <div class="product">
+                <div class="promo">Buy now</div>
+                <img src="image/iphone_x.jpg" alt="iPhone X 64GB">
+                <p>iPhone X 64GB</p>
+                <p class="price">
+                    <span class="discount-price">$349.00</span> 
+                </p>
+                <button class="add-to-cart">Add to cart</button>
+                <div class="colors">
+                    <div class="color silver"></div>
+                    <div class="color space-gray"></div>
+                </div>
+            </div>
+
+            <!-- MacBook Air M2 -->
+            <div class="product">
+                <div class="promo">Buy now</div>
+                <img src="image/macbook_air_m2.jpg" alt="MacBook Air M2">
+                <p>MacBook Air M2 512GB</p>
+                <p class="price">
+                    <span class="discount-price">$1,299.00</span> 
+                </p>
+                <button class="add-to-cart">Add to cart</button>
+                <div class="colors">
+                    <div class="color silver"></div>
+                    <div class="color space-gray"></div>
+                    <div class="color midnight"></div>
+                </div>
+            </div>
+
+            <!-- MacBook Pro 14" M2 -->
+            <div class="product">
+                <div class="promo">Buy now</div>
+                <img src="image/macbook_pro_14.jpg" alt="MacBook Pro 14 inch M2">
+                <p>MacBook Pro 14" M2 512GB</p>
+                <p class="price">
+                    <span class="discount-price">$1,999.00</span> 
+                </p>
+                <button class="add-to-cart">Add to cart</button>
+                <div class="colors">
+                    <div class="color silver"></div>
+                    <div class="color space-gray"></div>
+                </div>
+            </div>
+
+            <!-- MacBook Pro 16" M2 -->
+            <div class="product">
+                <div class="promo">Buy now</div>
+                <img src="image/macbook_pro_16.jpg" alt="MacBook Pro 16 inch M2">
+                <p>MacBook Pro 16" M2 1TB</p>
+                <p class="price">
+                    <span class="discount-price">$3,499.00</span> 
+                </p>
+                <button class="add-to-cart">Add to cart</button>
+                <div class="colors">
+                    <div class="color silver"></div>
+                    <div class="color space-gray"></div>
+                </div>
+            </div>
+
+            <!-- iPad Pro 11" -->
+            <div class="product">
+                <div class="promo">Buy now</div>
+                <img src="image/ipad_pro_11.jpg" alt="iPad Pro 11 inch">
+                <p>iPad Pro 11" 256GB</p>
+                <p class="price">
+                    <span class="discount-price">$1,099.00</span> 
+                </p>
+                <button class="add-to-cart">Add to cart</button>
+                <div class="colors">
+                    <div class="color silver"></div>
+                    <div class="color space-gray"></div>
+                </div>
+            </div>
+
+            <!-- iPad Air 5th Gen -->
+            <div class="product">
+                <div class="promo">Buy now</div>
+                <img src="image/ipad_air_5th_gen.jpg" alt="iPad Air 5th Gen">
+                <p>iPad Air 5th Gen 64GB</p>
+                <p class="price">
+                    <span class="discount-price">$599.00</span> 
+                </p>
+                <button class="add-to-cart">Add to cart</button>
+                <div class="colors">
+                    <div class="color pink"></div>
+                    <div class="color blue"></div>
+                    <div class="color starlight"></div>
+                    <div class="color purple"></div>
+                </div>
+            </div>
+
+            <!-- Apple Watch Series 9 -->
+            <div class="product">
+                <div class="promo">Buy now</div>
+                <img src="image/apple_watch_series_9.jpg" alt="Apple Watch Series 9">
+                <p>Apple Watch Series 9 45mm</p>
+                <p class="price">
+                    <span class="discount-price">$749.00</span> 
+                </p>
+                <button class="add-to-cart">Add to cart</button>
+                <div class="colors">
+                    <div class="color red"></div>
+                    <div class="color black"></div>
+                    <div class="color silver"></div>
+                    <div class="color blue"></div>
+                </div>
+            </div>
+
+            <!-- AirPods Pro 2 -->
+            <div class="product">
+                <div class="promo">Buy now</div>
+                <img src="image/airpods_pro_2.jpg" alt="AirPods Pro 2">
+                <p>AirPods Pro 2</p>
+                <p class="price">
+                    <span class="discount-price">$249.00</span> 
+                </p>
+                <button class="add-to-cart">Add to cart</button>
+                <div class="colors">
+                    <div class="color white"></div>
+                </div>
+            </div>
+
+            <!-- AirPods Max -->
+            <div class="product">
+                <div class="promo">Buy now</div>
+                <img src="image/airpods_max.jpg" alt="AirPods Max">
+                <p>AirPods Max</p>
+                <p class="price">
+                    <span class="discount-price">$549.00</span> 
+                </p>
+                <button class="add-to-cart">Add to cart</button>
+                <div class="colors">
+                    <div class="color space-gray"></div>
+                    <div class="color silver"></div>
+                    <div class="color sky-blue"></div>
+                    <div class="color pink"></div>
+                </div>
+            </div>
+
+            <!-- iMac 24" M1 -->
+            <div class="product">
+                <div class="promo">Buy now</div>
+                <img src="image/imac_24.jpg" alt="iMac 24 inch M1">
+                <p>iMac 24" M1 256GB</p>
+                <p class="price">
+                    <span class="discount-price">$1,299.00</span> 
+                </p>
+                <button class="add-to-cart">Add to cart</button>
+                <div class="colors">
+                    <div class="color blue"></div>
+                    <div class="color green"></div>
+                    <div class="color pink"></div>
+                    <div class="color silver"></div>
+                    <div class="color yellow"></div>
+                </div>
+            </div>
+
+            <!-- Apple TV 4K -->
+            <div class="product">
+                <div class="promo">Buy now</div>
+                <img src="image/apple_tv_4k.jpg" alt="Apple TV 4K">
+                <p>Apple TV 4K 64GB</p>
+                <p class="price">
+                    <span class="discount-price">$179.00</span> 
+                </p>
+                <button class="add-to-cart">Add to cart</button>
+                <div class="colors">
+                    <div class="color black"></div>
+                </div>
+            </div>
+
+            <!-- MacBook Pro 13" M2 -->
+            <div class="product">
+                <div class="promo">Buy now</div>
+                <img src="image/macbook_pro_13.jpg" alt="MacBook Pro 13 inch M2">
+                <p>MacBook Pro 13" M2 256GB</p>
+                <p class="price">
+                    <span class="discount-price">$1,299.00</span> 
+                </p>
+                <button class="add-to-cart">Add to cart</button>
+                <div class="colors">
+                    <div class="color silver"></div>
+                    <div class="color space-gray"></div>
+                </div>
+            </div>
+
+            <!-- MacBook Pro 16" M2 Max -->
+            <div class="product">
+                <div class="promo">Buy now</div>
+                <img src="image/macbook_pro_16_max.jpg" alt="MacBook Pro 16 inch M2 Max">
+                <p>MacBook Pro 16" M2 Max 1TB</p>
+                <p class="price">
+                    <span class="discount-price">$3,699.00</span> 
+                </p>
+                <button class="add-to-cart">Add to cart</button>
+                <div class="colors">
+                    <div class="color silver"></div>
+                    <div class="color space-gray"></div>
+                </div>
+            </div>
+
+            <!-- iPhone 15 128GB -->
+            <div class="product">
+                <div class="promo">Buy now</div>
+                <img src="image/iphone15_128gb.jpg" alt="iPhone 15 128GB">
+                <p>iPhone 15 128GB</p>
+                <p class="price">
+                    <span class="discount-price">$899.00</span> 
+                </p>
+                <button class="add-to-cart">Add to cart</button>
+                <div class="colors">
+                    <div class="color blue"></div>
+                    <div class="color black"></div>
+                    <div class="color pink"></div>
+                </div>
+            </div>
+
+            <!-- iPad Mini 6th Gen -->
+            <div class="product">
+                <div class="promo">Buy now</div>
+                <img src="image/ipad_mini_6th_gen.jpg" alt="iPad Mini 6th Gen">
+                <p>iPad Mini 6th Gen 64GB</p>
+                <p class="price">
+                    <span class="discount-price">$499.00</span> 
+                </p>
+                <button class="add-to-cart">Add to cart</button>
+                <div class="colors">
+                    <div class="color purple"></div>
+                    <div class="color pink"></div>
+                    <div class="color starlight"></div>
+                    <div class="color space-gray"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>    
+    <p class="wrt">
+        
+�� 2022 Apple Inc. All rights reserved. The Apple logo and iPod touch logo are trademarks of Apple Inc.
+◊◊◊ Available for Qualified Purchasers only. Qualified Purchasers receive an Apple Gift Card when they purchase an Eligible Product at a Qualifying Location through September 30, 2024. Gift card values may vary by Eligible Product. Only one Apple Gift Card per Eligible Product per Qualified Purchaser. Offer subject to availability. While supplies last. Qualified Purchasers shall receive a discount equal to the value of the Apple Gift Card off the price of the Eligible Product, but will be charged for all items in their cart, including the Apple Gift Card. Important notice regarding the checkout receipt and monthly statement for Apple Card Monthly Installments (ACMI) purchases with this promotion: Qualified Purchasers selecting ACMI (a 0% APR payment option available only in the U.S.) as payment type at checkout shall receive a discount equal to the value of the Apple Gift Card off the price of the Eligible Product. This will result in one ACMI installment plan over 12 months for the Eligible Product discounted by the instant credit, and a second ACMI installment plan over 12 months for the full price of the Apple Gift Card. The total combined amount charged over the two separate ACMI installment plans will reflect the original full retail price of the Eligible Product. Separately, Qualified Purchasers will receive and be charged for the Apple Gift Card in the amount of the applicable discount off the Eligible Product. Apple Card Monthly Installments (ACMI) is a 0% APR payment option that is only available if you select it at checkout in the U.S. for eligible products purchased at Apple Store locations, apple.com, the Apple Store app, or by calling 1-800-MY-APPLE, and is subject to credit approval and credit limit. See https://support.apple.com/kb/HT211204 for more information about eligible products. APR ranges may vary based on when you accepted an Apple Card. Cardholders who accept an Apple Card on and/or after August 1, 2024: Variable APRs for Apple Card, other than ACMI, range from 19.24% to 29.49% based on creditworthiness. Rates as of August 1, 2024. Existing cardholders: See your Customer Agreement for applicable rates and fee. If you buy an ACMI-eligible product by choosing to pay in full with Apple Card (instead of using ACMI), that purchase is subject to the Apple Card variable APR, not 0% APR. Taxes and shipping on ACMI purchases are subject to the variable APR, not 0% APR. When you buy an iPhone with ACMI, you’ll need to select AT&T, Boost Mobile, T-Mobile, or Verizon as your carrier when you check out. An iPhone purchased with ACMI is always unlocked, so you can switch carriers at any time. ACMI is not available for purchases made online at the following special stores: Apple Employee Purchase Plan; participating corporate Employee Purchase Programs; Apple at Work for small businesses; Government and Veterans and Military Purchase Programs; or on refurbished devices. The last month’s payment for each product will be the product's purchase price, less all other payments at the monthly payment amount. ACMI financing is subject to change at any time for any reason, including but not limited to installment term lengths and eligible products. See https://support.apple.com/kb/HT211204 for information about upcoming changes to ACMI financing. See the Apple Card Customer Agreement for more information about ACMI financing. Apple Card is issued by Goldman Sachs Bank USA, Salt Lake City Branch. Available for qualifying applicants in the United States. If you reside in the U.S. territories, please call Goldman Sachs at 877-255-5923 with questions about accessing this offer or applying for Apple Card. This offer cannot be combined with the Apple Employee Purchase Plan or business loyalty pricing. Additional restrictions apply. View full terms and conditions of offer here.
+
+°°° The promotional Apple Education Pricing on AppleCare+ is available for eligible products only when the eligible product and AppleCare+ are purchased directly from an Apple Store or concurrently from the online Apple Store for Education during the promotional period and cannot be combined with non-promotional Apple Education Pricing. AppleCare+ attached to eligible products outside of the promotional period is not eligible for this promotional rate.
+
+This promotional AppleCare+ Education Pricing is applicable only to two-year paid upfront AppleCare+ for iPad and three-year paid upfront AppleCare+ for Mac and is not applicable to any recurring payment AppleCare+ plans. In select Retail stores, the AppleCare+ Education Pricing may be available on select recurring payment AppleCare+ plans for iPad and Mac.
+
+Apple Education Pricing is available to current and newly accepted university students and their parents, as well as teachers and staff at all levels. Quantity limits apply.
+
+∆ Apple Intelligence will be available in beta on all iPhone 16 models, iPhone 15 Pro, and iPhone 15 Pro Max, with Siri and device language set to U.S. English, as an iOS 18 update this fall. Some features and additional languages will be coming over the course of the next year.
+
+
+
+    Apple Store Online
+    <hr>
+    <br><br>
+
+    </p>
+    <footer style="background-color: #000000; color: #fff; padding: 20px 0; text-align: center;">
+        <div class="container" style="max-width: 1200px; margin: auto;">
+            <div class="footer-links" style="margin-bottom: 15px;">
+                <a href="#" style="color: #fff; margin-right: 15px; text-decoration: none;">Home</a>
+                <a href="#" style="color: #fff; margin-right: 15px; text-decoration: none;">Shop</a>
+                <a href="#" style="color: #fff; margin-right: 15px; text-decoration: none;">Contact Us</a>
+                <a href="#" style="color: #fff; margin-right: 15px; text-decoration: none;">FAQ</a>
+                <a href="#" style="color: #fff; margin-right: 15px; text-decoration: none;">Privacy Policy</a>
+            </div>
+            <p>&copy; 2024 iPhone Store. All Rights Reserved.</p>
+            <div class="social-links" style="margin-top: 10px;">
+                <a href="#" style="color: #fff; margin: 0 10px; text-decoration: none;">Facebook</a>
+                <a href="#" style="color: #fff; margin: 0 10px; text-decoration: none;">Twitter</a>
+                <a href="#" style="color: #fff; margin: 0 10px; text-decoration: none;">Instagram</a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // Select all 'Add to cart' buttons
+        const addToCartButtons = document.querySelectorAll('.add-to-cart');
+    
+        // Function to add product to the cart
+        addToCartButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                // Get the product details from the current product container
+                const productContainer = this.closest('.product');
+                const product = {
+                    name: productContainer.querySelector('p').textContent,  // Get the product name
+                    image: productContainer.querySelector('img').src,       // Get the product image source
+                    discountPrice: productContainer.querySelector('.discount-price').textContent,  // Discount price
+                    originalPrice: productContainer.querySelector('.original-price').textContent,  // Original price
+                    quantity: 1  // Initial quantity
+                };
+    
+                // Get cart from localStorage or create a new empty one
+                let cart = JSON.parse(localStorage.getItem('cart')) || [];
+    
+                // Check if the product is already in the cart
+                const existingProduct = cart.find(item => item.name === product.name);
+    
+                if (existingProduct) {
+                    // If product exists, increase the quantity
+                    existingProduct.quantity += 1;
+                } else {
+                    // If not, add the new product to the cart
+                    cart.push(product);
+                }
+    
+                // Save updated cart back to localStorage
+                localStorage.setItem('cart', JSON.stringify(cart));
+    
+                // Display updated cart
+                alert('Product added to cart!');
+            });
+        });
+    
+        // Function to display cart items dynamically (optional if you want to show cart instantly)
+        function displayCartItems() {
+            const cart = JSON.parse(localStorage.getItem('cart')) || [];
+            const cartItemsContainer = document.querySelector('.cart-items');
+    
+            // Clear previous cart content
+            cartItemsContainer.innerHTML = '';
+    
+            if (cart.length === 0) {
+                cartItemsContainer.innerHTML = '<p>Your cart is empty.</p>';
+            } else {
+                cart.forEach(item => {
+                    // Create a div for each cart item
+                    const productElement = document.createElement('div');
+                    productElement.classList.add('cart-item');
+                    productElement.innerHTML = `
+                        <img src="${item.image}" alt="${item.name}">
+                        <p><strong>${item.name}</strong></p>
+                        <p>Discount Price: ${item.discountPrice}</p>
+                        <p>Original Price: ${item.originalPrice}</p>
+                        <p>Quantity: ${item.quantity}</p>
+                    `;
+    
+                    // Append the item to the cart container
+                    cartItemsContainer.appendChild(productElement);
+                });
+            }
+        }
+    
+        // Call this function on page load to display existing cart items (optional)
+        window.onload = displayCartItems;
+    </script>
+</body>
+</html>

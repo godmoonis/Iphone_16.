@@ -1,0 +1,80 @@
+[
+    {
+        "id":"128GB",
+        "name": "iPhone 16",
+        "price": 780.00,
+        "image":"image/iphonw 16.jpg"
+    },
+    {
+        "id":"512GB",
+        "name": "iPhone 16",
+        "price": 999.00,
+        "image":"image/iphonw 16.jpg"
+    },
+    {
+        "id":"512GB",
+        "name": "iPhone 16pro",
+        "price": 999.00,
+        "image":"image/pro1.jpg"
+    },
+    {
+        "id":"128GB",
+        "name": "iPhone 16pro max",
+        "price": 934.00,
+        "image":"image/promax.jpg"
+    },
+    {
+        "id":"256GB",
+        "name": "iPhone 16pro max",
+        "price": 1095.00,
+        "image":"image/promax.jpg"
+    },
+    {
+        "id":"512GB",
+        "name": "iPhone 16pro max",
+        "price": 1289.00,
+        "image":"image/promax.jpg"
+    },
+    {
+        "id":"256GB",
+        "name": "iPhone 15",
+        "price": 912.00,
+        "image":"image/15.jpg"
+    },
+    {
+        "id":"512GB",
+        "name": "iPhone 15pro max",
+        "price": 1400.00,
+        "image":"image/15promaxx.jpg"
+    },
+    {
+        "id":"512GB",
+        "name": "iPhone 15pro",
+        "price": 1001.00,
+        "image":"image/15pro.jpg"
+    },
+    {
+        "id":"1TB",
+        "name": "MacBook Pro 16-inch",
+        "price": 1988.00,
+        "image":"image/mac.png"
+    },
+    {
+        "id":"1TB",
+        "name": "MacBook Pro 16-inch",
+        "price": 840.00,
+        "image":"image/mac.png"
+    },
+    {
+        "id":1,
+        "name": "iPhone 16",
+        "price": 840.00,
+        "image":"image/iphonw 16.jpg"
+    },
+    {
+        "id":1,
+        "name": "iPhone 16",
+        "price": 840.00,
+        "image":"image/iphonw 16.jpg"
+    },
+]

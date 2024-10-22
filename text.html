@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone Checkout</title>
+    <script src="https://kit.fontawesome.com/49e90e4fd6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <i class="fa-brands fa-apple"></i>
+            <h1>iStore</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="checkout-container">
+            <!-- Contact and Delivery Form -->
+            <div class="form-section">
+                <h2>Contact</h2>
+                <form>
+                    <label for="email">Email or mobile phone number</label>
+                    <input type="email" id="email" name="email" placeholder="Enter email or phone" required>
+                    <div class="checkbox">
+                        <input type="checkbox" id="news-offers" name="news-offers" checked>
+                        <label for="news-offers">Email me with news and offers</label>
+                    </div>
+
+                    <h2>Delivery</h2>
+                    <label for="country">Country/Region</label>
+                    <select id="country" name="country">
+                        <option value="Nigeria">Nigeria</option>
+                        <!-- Add more countries if needed -->
+                    </select>
+
+                    <div class="name-fields">
+                        <div>
+                            <label for="first-name">First name</label>
+                            <input type="text" id="first-name" name="first-name" required>
+                        </div>
+                        <div>
+                            <label for="last-name">Last name</label>
+                            <input type="text" id="last-name" name="last-name" required>
+                        </div>
+                    </div>
+
+                    <label for="company">Company (optional)</label>
+                    <input type="text" id="company" name="company">
+
+                    <label for="address">Address</label>
+                    <input type="text" id="address" name="address" required>
+
+                    <label for="apartment">Apartment, suite, etc. (optional)</label>
+                    <input type="text" id="apartment" name="apartment">
+                </form>
+            </div>
+
+            <!-- Cart Summary Section -->
+            <div class="cart-summary">
+                <div class="cart-item">
+                    <img src="iphone15pro.png" alt="iPhone 15 Pro Max 1TB">
+                    <div class="item-details">
+                        <h3>iPhone 15 Pro Max 1TB</h3>
+                        <p>Black</p>
+                        <p>₦3,199,000.00</p>
+                    </div>
+                </div>
+
+                <div class="promo-code">
+                    <input type="text" placeholder="Discount code or gift card">
+                    <button type="button">Apply</button>
+                </div>
+
+                <div class="pricing">
+                    <p>Subtotal (1 item): <span>₦3,199,000.00</span></p>
+                    <p>Shipping: <span>FREE</span></p>
+                    <p>Total: <span>₦3,199,000.00</span></p>
+                    <p>Including ₦223,186.05 in taxes</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
